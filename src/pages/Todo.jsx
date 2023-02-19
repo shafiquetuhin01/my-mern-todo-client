@@ -60,7 +60,7 @@ const Todo = () => {
   };
   return (
     <div className="w-1/2 mx-auto mt-4 pb-1">
-      <div className="card bg-neutral text-neutral-content pb-3">
+      <div className="card bg-neutral text-neutral-content pb-3 z-50">
         <div className="card-body">
           <form onSubmit={(e) => addItem(e)}>
             <h2 className="text-4xl text-center font-bold text-success mb-3 underline">

@@ -24,7 +24,7 @@ const Todo = () => {
       try {
         const res = await axios.get('http://localhost:5000/api/items');
         setListItems(res.data);
-        console.log('increasing');
+        // console.log('increasing');
       } catch (error) {
         console.log(error);
       }

@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
     <div className="navbar bg-gray-300">
-      <div className="flex-1">
-        <Link className="btn btn-ghost normal-case text-2xl font-bold">My Todo</Link>
+      <div className="flex-1 top-0 z-50">
+        <Link to='/' className="btn btn-ghost normal-case text-2xl font-bold">My Todo</Link>
       </div>
       <div className="flex-none">
         <ul className="menu menu-horizontal px-1 font-bold">
